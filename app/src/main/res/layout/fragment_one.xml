@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne"
+    android:background="#068EFA"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Data Insert Page"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#330211"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Name"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Enter Name">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Age"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Enter Age">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:text="Marks"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/marks"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Enter Marks">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="INSERT"
+            android:layout_marginLeft="270dp"
+            android:onClick="insert">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
