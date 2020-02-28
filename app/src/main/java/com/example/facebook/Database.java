@@ -49,5 +49,12 @@ public class Database extends SQLiteOpenHelper {
 
     }
 
+    public Cursor getAllRecords(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor resultSet = db.rawQuery("select * from tbl_student",null);
+        return  resultSet;
+
+    }
+
 
 }
